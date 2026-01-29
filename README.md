@@ -90,3 +90,80 @@ A detailed **Actual vs Predicted** comparison was generated to assess forecast a
 - **MAPE:** Reported as a percentage for interpretability  
 - **RMSE:** Expressed in USD to reflect real-world price deviation  
 
+---
+
+# NVIDIA Stock Price Forecasting using Long Short-Term Memory (LSTM)
+
+This project demonstrates **time series forecasting using Long Short-Term Memory (LSTM) neural networks**.  
+The model is built to learn temporal patterns in sequential data and predict future values based on historical observations.
+
+---
+
+## Project Overview
+
+Time series forecasting is a common problem in domains such as:
+- Finance
+- Sales forecasting
+- Weather prediction
+- Energy consumption analysis
+
+In this project:
+- Sequential data is preprocessed and scaled
+- An LSTM model is trained to capture temporal dependencies
+- Predictions are generated and evaluated against actual values
+
+---
+
+## Model Used
+
+- **LSTM (Long Short-Term Memory)**
+  - A type of Recurrent Neural Network (RNN)
+  - Designed to handle long-term dependencies in sequential data
+  - Well-suited for time series forecasting tasks
+
+---
+
+## Requirements
+
+The project uses standard Python data science libraries:
+
+- Python 3.x
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- TensorFlow / Keras
+
+You can install dependencies with:
+
+```bash
+pip install numpy pandas matplotlib scikit-learn tensorflow
+```
+
+---
+
+## Results
+- The trained LSTM model learns trends and patterns in the time series data
+
+- Predictions are plotted alongside actual values for comparison
+
+- Performance can be improved by tuning:
+
+  - Number of LSTM units
+
+  - Window size
+
+  - Number of epochs
+
+  - Learning rate
+
+---
+
+## Learning Outcomes
+- Understanding time series preprocessing
+
+- Building and training LSTM models
+
+- Evaluating sequential prediction models
+
+- Applying deep learning to real-world temporal data
