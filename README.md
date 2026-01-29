@@ -22,8 +22,6 @@ The project demonstrates practical time series analysis, model evaluation, and b
 - **Frequency:** Daily closing prices  
 - **Time Range:** Last 3 years of historical data  
 
-> Note: An API key from Twelve Data is required to run this project.
-
 ---
 
 ## Tools & Technologies
